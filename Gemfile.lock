@@ -1,0 +1,41 @@
+GIT
+  remote: https://github.com/ianfixes/ruby_kml.git
+  revision: 38649979e2f6e54087b35b9d099bd77d2d3849c8
+  ref: 3864997
+  specs:
+    ruby_kml (0.1.7)
+      builder
+
+GIT
+  remote: https://github.com/ianfixes/vincenty.git
+  revision: b7d876db3512f3f9cb8f3a1684d308da094b0537
+  ref: b7d876d
+  specs:
+    vincenty (1.1.0)
+
+PATH
+  remote: .
+  specs:
+    nmea_plus_google_earth (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    builder (3.2.4)
+    iso_country_codes (0.4.2)
+    nmea_plus (1.0.24)
+      racc (~> 1.4, >= 1.0)
+    racc (1.4.16)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  iso_country_codes (~> 0.4.2)
+  nmea_plus (~> 1.0.22)
+  nmea_plus_google_earth!
+  ruby_kml!
+  vincenty!
+
+BUNDLED WITH
+   1.16.6
